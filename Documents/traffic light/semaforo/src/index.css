@@ -1,0 +1,71 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+  
+  }
+  
+  .container{
+  width: 15vw;
+  height: 80vh;
+  
+  margin-top: 6%;
+  display: block;
+  justify-content: center;
+  
+  
+  }
+  
+  
+    .containercirculitos{
+      background-color: black;
+    }
+    
+  
+  
+  .palito{
+    width: 20%;
+    height: 30%;
+    margin: 0 auto;
+    background-color: black;
+  }
+  
+  .containercirculitos{
+    width: 90%;
+    height: 70%;
+   
+    display: block;
+    border-radius: 5%;
+  }
+  
+  .red{
+    background-color: red;
+    border-radius: 100%;
+    height: 33.33%;
+    width: 100%;
+  display: block;
+   
+  }
+  
+  .brillo{
+  box-shadow:20px 20px 50px 30px lightgrey; 
+  }
+  
+  
+  .orange{
+    background-color: orange;
+    border-radius: 100%;
+    height: 33.33%;
+    width: 100%;
+  display: block;
+  }
+  .green{
+    background-color: green;
+    border-radius: 100%;
+    height: 33.33%;
+    width: 100%;
+  display: block;
+  }
+
+
