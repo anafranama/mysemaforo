@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 
+    'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.filaclase{
+display: grid;
+grid-template-columns: 35px auto;
+
+
+border: solid red;
+ border-width: thin;
+ font-size: 100%;
+}
+.indi{
+  background-color: white;
+
+}
+
+.cancion{
+  background-color:rebeccapurple;
+  
+}
+
+.buttonbar{
+  background-color: gray;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  
+}
+
+.cancionactual{
+  background-color: gray  !important;
+ 
+}
+
+.simbolo1{
+  color: white;
+  font-size: 160%;
+}
+.simbolosdelado{
+  color: white;
+  font-size: 180%;
+}
+.pausa{
+  display: none;
+}
+
+.containersimbolos{
+
+width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
